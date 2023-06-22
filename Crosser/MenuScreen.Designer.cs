@@ -38,16 +38,16 @@
             this.titleLabel.AutoSize = true;
             this.titleLabel.Font = new System.Drawing.Font("Impact", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.titleLabel.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.titleLabel.Location = new System.Drawing.Point(182, 70);
+            this.titleLabel.Location = new System.Drawing.Point(84, 185);
             this.titleLabel.Name = "titleLabel";
-            this.titleLabel.Size = new System.Drawing.Size(338, 98);
+            this.titleLabel.Size = new System.Drawing.Size(394, 98);
             this.titleLabel.TabIndex = 0;
-            this.titleLabel.Text = "CROSSER";
+            this.titleLabel.Text = "CROSSER 2";
             // 
             // startButton
             // 
             this.startButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.startButton.Location = new System.Drawing.Point(122, 233);
+            this.startButton.Location = new System.Drawing.Point(181, 354);
             this.startButton.Name = "startButton";
             this.startButton.Size = new System.Drawing.Size(195, 83);
             this.startButton.TabIndex = 1;
@@ -58,7 +58,7 @@
             // exitButton
             // 
             this.exitButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.exitButton.Location = new System.Drawing.Point(388, 233);
+            this.exitButton.Location = new System.Drawing.Point(181, 443);
             this.exitButton.Name = "exitButton";
             this.exitButton.Size = new System.Drawing.Size(195, 83);
             this.exitButton.TabIndex = 2;
@@ -70,12 +70,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DimGray;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.startButton);
             this.Controls.Add(this.titleLabel);
             this.Name = "MenuScreen";
-            this.Size = new System.Drawing.Size(715, 405);
+            this.Size = new System.Drawing.Size(570, 670);
             this.ResumeLayout(false);
             this.PerformLayout();
 

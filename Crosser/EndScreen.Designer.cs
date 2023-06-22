@@ -39,7 +39,7 @@
             this.exitButton.BackColor = System.Drawing.Color.Red;
             this.exitButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.exitButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.exitButton.Location = new System.Drawing.Point(194, 309);
+            this.exitButton.Location = new System.Drawing.Point(131, 474);
             this.exitButton.Name = "exitButton";
             this.exitButton.Size = new System.Drawing.Size(289, 46);
             this.exitButton.TabIndex = 5;
@@ -51,7 +51,7 @@
             // 
             this.endLabel.Font = new System.Drawing.Font("Impact", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.endLabel.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.endLabel.Location = new System.Drawing.Point(130, 54);
+            this.endLabel.Location = new System.Drawing.Point(67, 219);
             this.endLabel.Name = "endLabel";
             this.endLabel.Size = new System.Drawing.Size(442, 98);
             this.endLabel.TabIndex = 3;
@@ -63,7 +63,7 @@
             this.playButton.BackColor = System.Drawing.Color.Lime;
             this.playButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.playButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.playButton.Location = new System.Drawing.Point(194, 185);
+            this.playButton.Location = new System.Drawing.Point(131, 350);
             this.playButton.Name = "playButton";
             this.playButton.Size = new System.Drawing.Size(289, 46);
             this.playButton.TabIndex = 6;
@@ -76,7 +76,7 @@
             this.menuButton.BackColor = System.Drawing.Color.Yellow;
             this.menuButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.menuButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.menuButton.Location = new System.Drawing.Point(194, 248);
+            this.menuButton.Location = new System.Drawing.Point(131, 413);
             this.menuButton.Name = "menuButton";
             this.menuButton.Size = new System.Drawing.Size(289, 46);
             this.menuButton.TabIndex = 7;
@@ -94,7 +94,7 @@
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.endLabel);
             this.Name = "EndScreen";
-            this.Size = new System.Drawing.Size(715, 405);
+            this.Size = new System.Drawing.Size(570, 670);
             this.ResumeLayout(false);
 
         }
