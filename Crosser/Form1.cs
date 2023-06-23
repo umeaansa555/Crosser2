@@ -8,9 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-// Crosser - 2D animated game using classes and objects
+// Crosser 2 - 2D Game final
 // A. Ansari
-// March 2023
+// June 2023
 
 
 namespace Crosser

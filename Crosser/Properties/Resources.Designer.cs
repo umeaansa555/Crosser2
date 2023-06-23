@@ -70,11 +70,31 @@ namespace Crosser.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap car_crash_clipart {
+            get {
+                object obj = ResourceManager.GetObject("car_crash_clipart", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
         internal static System.IO.UnmanagedMemoryStream skidcrash {
             get {
                 return ResourceManager.GetStream("skidcrash", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Traffic_Light {
+            get {
+                object obj = ResourceManager.GetObject("Traffic_Light", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         

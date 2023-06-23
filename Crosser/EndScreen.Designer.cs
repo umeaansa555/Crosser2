@@ -32,6 +32,8 @@
             this.endLabel = new System.Windows.Forms.Label();
             this.playButton = new System.Windows.Forms.Button();
             this.menuButton = new System.Windows.Forms.Button();
+            this.crashBox = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.crashBox)).BeginInit();
             this.SuspendLayout();
             // 
             // exitButton
@@ -39,7 +41,7 @@
             this.exitButton.BackColor = System.Drawing.Color.Red;
             this.exitButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.exitButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.exitButton.Location = new System.Drawing.Point(131, 474);
+            this.exitButton.Location = new System.Drawing.Point(137, 360);
             this.exitButton.Name = "exitButton";
             this.exitButton.Size = new System.Drawing.Size(289, 46);
             this.exitButton.TabIndex = 5;
@@ -49,9 +51,9 @@
             // 
             // endLabel
             // 
-            this.endLabel.Font = new System.Drawing.Font("Impact", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.endLabel.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.endLabel.Location = new System.Drawing.Point(67, 219);
+            this.endLabel.Font = new System.Drawing.Font("Impact", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.endLabel.ForeColor = System.Drawing.Color.OrangeRed;
+            this.endLabel.Location = new System.Drawing.Point(58, 115);
             this.endLabel.Name = "endLabel";
             this.endLabel.Size = new System.Drawing.Size(442, 98);
             this.endLabel.TabIndex = 3;
@@ -63,7 +65,7 @@
             this.playButton.BackColor = System.Drawing.Color.Lime;
             this.playButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.playButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.playButton.Location = new System.Drawing.Point(131, 350);
+            this.playButton.Location = new System.Drawing.Point(137, 236);
             this.playButton.Name = "playButton";
             this.playButton.Size = new System.Drawing.Size(289, 46);
             this.playButton.TabIndex = 6;
@@ -76,7 +78,7 @@
             this.menuButton.BackColor = System.Drawing.Color.Yellow;
             this.menuButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.menuButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.menuButton.Location = new System.Drawing.Point(131, 413);
+            this.menuButton.Location = new System.Drawing.Point(137, 299);
             this.menuButton.Name = "menuButton";
             this.menuButton.Size = new System.Drawing.Size(289, 46);
             this.menuButton.TabIndex = 7;
@@ -84,17 +86,29 @@
             this.menuButton.UseVisualStyleBackColor = false;
             this.menuButton.Click += new System.EventHandler(this.menuButton_Click);
             // 
+            // crashBox
+            // 
+            this.crashBox.Image = global::Crosser.Properties.Resources.car_crash_clipart;
+            this.crashBox.Location = new System.Drawing.Point(87, 432);
+            this.crashBox.Name = "crashBox";
+            this.crashBox.Size = new System.Drawing.Size(379, 201);
+            this.crashBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.crashBox.TabIndex = 9;
+            this.crashBox.TabStop = false;
+            // 
             // EndScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Controls.Add(this.crashBox);
             this.Controls.Add(this.menuButton);
             this.Controls.Add(this.playButton);
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.endLabel);
             this.Name = "EndScreen";
             this.Size = new System.Drawing.Size(570, 670);
+            ((System.ComponentModel.ISupportInitialize)(this.crashBox)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -105,5 +119,6 @@
         private System.Windows.Forms.Label endLabel;
         private System.Windows.Forms.Button playButton;
         private System.Windows.Forms.Button menuButton;
+        private System.Windows.Forms.PictureBox crashBox;
     }
 }

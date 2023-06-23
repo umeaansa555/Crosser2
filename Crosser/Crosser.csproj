@@ -118,5 +118,11 @@
   <ItemGroup>
     <None Include="Resources\338954__inspectorj__car-ignition-exterior-a.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Traffic+Light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\car_crash_clipart.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

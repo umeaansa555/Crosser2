@@ -29,5 +29,10 @@ namespace Crosser
         {
             Application.Exit();
         }
+
+        private void leaderboardButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
