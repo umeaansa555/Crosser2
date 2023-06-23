@@ -80,6 +80,37 @@ namespace Crosser.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;
+        ///&lt;leaderboard&gt;
+        ///  &lt;highscore&gt;
+        ///    &lt;nickname&gt;Speedy&lt;/nickname&gt;
+        ///    &lt;score&gt; 22&lt;/score&gt;
+        ///  &lt;/highscore&gt;
+        ///  &lt;highscore&gt;
+        ///    &lt;nickname&gt;Scooter&lt;/nickname&gt;
+        ///    &lt;score&gt;18&lt;/score&gt;
+        ///  &lt;/highscore&gt;
+        ///  &lt;highscore&gt;
+        ///    &lt;nickname&gt;Superfast&lt;/nickname&gt;
+        ///    &lt;score&gt;19&lt;/score&gt;
+        ///  &lt;/highscore&gt;
+        ///  &lt;highscore&gt;
+        ///    &lt;nickname&gt;Slick&lt;/nickname&gt;
+        ///    &lt;score&gt;25&lt;/score&gt;
+        ///  &lt;/highscore&gt;
+        ///  &lt;highscore&gt;
+        ///    &lt;nickname&gt;Skid&lt;/nickname&gt;
+        ///    &lt;score&gt;50&lt;/score&gt;
+        ///  &lt;/highscore&gt;
+        ///&lt;/leaderboard&gt;.
+        /// </summary>
+        internal static string leaderboard {
+            get {
+                return ResourceManager.GetString("leaderboard", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap output_onlinepngtools__1___1_ {

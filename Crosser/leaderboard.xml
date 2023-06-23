@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<leaderboard>
+  <highscore>
+    <nickname>Speedy</nickname>
+    <score> 22</score>
+  </highscore>
+  <highscore>
+    <nickname>Scooter</nickname>
+    <score>18</score>
+  </highscore>
+  <highscore>
+    <nickname>Superfast</nickname>
+    <score>19</score>
+  </highscore>
+  <highscore>
+    <nickname>Slick</nickname>
+    <score>25</score>
+  </highscore>
+  <highscore>
+    <nickname>Skid</nickname>
+    <score>50</score>
+  </highscore>
+</leaderboard>

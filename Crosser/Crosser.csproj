@@ -137,5 +137,10 @@
   <ItemGroup>
     <None Include="Resources\output-onlinepngtools %281%29 %281%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="leaderboard.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

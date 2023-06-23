@@ -32,6 +32,7 @@
             this.leaderboardLabel = new System.Windows.Forms.Label();
             this.submitNameLabel = new System.Windows.Forms.TextBox();
             this.submitButton = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // titleLabel
@@ -52,7 +53,7 @@
             this.leaderboardLabel.ForeColor = System.Drawing.Color.White;
             this.leaderboardLabel.Location = new System.Drawing.Point(55, 272);
             this.leaderboardLabel.Name = "leaderboardLabel";
-            this.leaderboardLabel.Size = new System.Drawing.Size(466, 215);
+            this.leaderboardLabel.Size = new System.Drawing.Size(466, 308);
             this.leaderboardLabel.TabIndex = 8;
             this.leaderboardLabel.Text = "Name / Score";
             this.leaderboardLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -83,11 +84,28 @@
             this.submitButton.UseVisualStyleBackColor = false;
             this.submitButton.Click += new System.EventHandler(this.submitButton_Click);
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.White;
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(206, 614);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(180, 32);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "Return to Menu";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // ScoreScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.leaderboardLabel);
             this.Controls.Add(this.submitNameLabel);
             this.Controls.Add(this.submitButton);
@@ -105,5 +123,6 @@
         private System.Windows.Forms.Label leaderboardLabel;
         private System.Windows.Forms.TextBox submitNameLabel;
         private System.Windows.Forms.Button submitButton;
+        private System.Windows.Forms.Button button1;
     }
 }

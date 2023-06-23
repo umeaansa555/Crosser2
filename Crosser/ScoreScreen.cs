@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml;
 
 namespace Crosser
 {
@@ -18,6 +19,7 @@ namespace Crosser
         public ScoreScreen()
         {
             InitializeComponent();
+            LoadScores();
         }
 
         private void submitButton_Click(object sender, EventArgs e)
@@ -36,6 +38,35 @@ namespace Crosser
             {
                 leaderboardLabel.Text += $"\n {h.nickname} / {h.score}";
             }
+        }
+
+        private void LoadScores()
+        {
+            string nickname;
+            int score;
+
+            XmlReader reader = XmlReader.Create("leaderboard.xml");
+
+            while (reader.Read())
+            {
+                if (reader.NodeType == XmlNodeType.Text)
+                {
+                    nickname = reader.ReadString();
+
+                    reader.ReadToNextSibling("score");
+                    score = reader.ReadElementContentAsInt();
+
+                    HighScore newScore = new HighScore(nickname, score);
+                    leaderboard.Add(newScore);
+                }
+            }
+            //leaderboard = leaderboard.OrderBy(x => x.score).ThenBy(x => x.nickname).ToList();
+            leaderboard = leaderboard.OrderBy(x => x.score).Reverse().ToList();
+            foreach (HighScore h in leaderboard)
+            {
+                leaderboardLabel.Text += $"\n {h.nickname} / {h.score}";
+            }
+            reader.Close();
         }
     }
 }
