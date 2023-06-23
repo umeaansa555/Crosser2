@@ -54,6 +54,7 @@
       <DependentUpon>EndScreen.cs</DependentUpon>
     </Compile>
     <Compile Include="Enemy.cs" />
+    <Compile Include="EnemyFast.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

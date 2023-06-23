@@ -79,7 +79,7 @@ namespace Crosser
 
 
             foreach (Enemy n in enemies)
-            {
+            {// constrain enemy movement to stay on the screen
                 n.Move(this.Width, this.Height);
             }
 
