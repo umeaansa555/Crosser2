@@ -48,7 +48,7 @@
             // leaderboardLabel
             // 
             this.leaderboardLabel.BackColor = System.Drawing.Color.Transparent;
-            this.leaderboardLabel.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.leaderboardLabel.Font = new System.Drawing.Font("Impact", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.leaderboardLabel.ForeColor = System.Drawing.Color.White;
             this.leaderboardLabel.Location = new System.Drawing.Point(55, 272);
             this.leaderboardLabel.Name = "leaderboardLabel";
@@ -73,7 +73,7 @@
             this.submitButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
             this.submitButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.submitButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.submitButton.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold);
+            this.submitButton.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.submitButton.Location = new System.Drawing.Point(354, 199);
             this.submitButton.Margin = new System.Windows.Forms.Padding(4);
             this.submitButton.Name = "submitButton";
@@ -81,6 +81,7 @@
             this.submitButton.TabIndex = 6;
             this.submitButton.Text = "Submit Score";
             this.submitButton.UseVisualStyleBackColor = false;
+            this.submitButton.Click += new System.EventHandler(this.submitButton_Click);
             // 
             // ScoreScreen
             // 
