@@ -66,7 +66,7 @@
             // 
             // exitButton
             // 
-            this.exitButton.BackColor = System.Drawing.Color.Crimson;
+            this.exitButton.BackColor = System.Drawing.Color.OrangeRed;
             this.exitButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.exitButton.FlatAppearance.BorderSize = 3;
             this.exitButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;

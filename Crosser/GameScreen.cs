@@ -38,7 +38,7 @@ namespace Crosser
 
             enemies.Clear();
 
-            for (int i = 1; i <= 3; i++)
+            for (int i = 1; i <= score + 3; i++)
             {
                 newEnemy();
             }

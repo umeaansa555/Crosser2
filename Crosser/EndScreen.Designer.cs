@@ -38,9 +38,11 @@
             // 
             // exitButton
             // 
-            this.exitButton.BackColor = System.Drawing.Color.Red;
-            this.exitButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.exitButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.exitButton.BackColor = System.Drawing.Color.OrangeRed;
+            this.exitButton.FlatAppearance.BorderSize = 3;
+            this.exitButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.exitButton.Font = new System.Drawing.Font("Impact", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.exitButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
             this.exitButton.Location = new System.Drawing.Point(137, 360);
             this.exitButton.Name = "exitButton";
             this.exitButton.Size = new System.Drawing.Size(289, 46);
@@ -62,9 +64,11 @@
             // 
             // playButton
             // 
-            this.playButton.BackColor = System.Drawing.Color.Lime;
-            this.playButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.playButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.playButton.BackColor = System.Drawing.Color.Chartreuse;
+            this.playButton.FlatAppearance.BorderSize = 3;
+            this.playButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.playButton.Font = new System.Drawing.Font("Impact", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.playButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
             this.playButton.Location = new System.Drawing.Point(137, 236);
             this.playButton.Name = "playButton";
             this.playButton.Size = new System.Drawing.Size(289, 46);
@@ -75,9 +79,11 @@
             // 
             // menuButton
             // 
-            this.menuButton.BackColor = System.Drawing.Color.Yellow;
-            this.menuButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.menuButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menuButton.BackColor = System.Drawing.Color.Gold;
+            this.menuButton.FlatAppearance.BorderSize = 3;
+            this.menuButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.menuButton.Font = new System.Drawing.Font("Impact", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menuButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
             this.menuButton.Location = new System.Drawing.Point(137, 299);
             this.menuButton.Name = "menuButton";
             this.menuButton.Size = new System.Drawing.Size(289, 46);
